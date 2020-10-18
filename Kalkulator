@@ -1,6 +1,6 @@
 public class Kalkulator{
 	public static void main(String[] args){
-		Dodaj(args[0], args[1]);
+		System.out.println(Dodaj(Integer.parseInt(args[0]), Integer.parseInt(args[1])));
 	}
 	
 	public int Dodaj(int a, int b){
